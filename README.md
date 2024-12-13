@@ -1,3 +1,7 @@
+# 🖊️ Requirements
+- [Python 3](https://www.python.org/downloads/)
+- [Pip](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)
+- [Chrome](https://www.google.com/chrome/https://www.google.com/chrome/)
 # 📚 How to use
 - Step 1: Open script.py using any text editor (eg. notepad)
 - Step 2: Set ID_NUMBER and PASSWORD variables to animosys credentials
@@ -9,6 +13,8 @@
     ```
 - Step 3: Use pip to install helium (eg. pip install helium)
 - Step 4: Run script using python (eg. python script.py)
+
+ *Note: To stop the script, press CTRL+C in the terminal or close the browser*
 
 __🚀 Good luck with enlistment!__
 
