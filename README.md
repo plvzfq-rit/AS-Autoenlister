@@ -3,8 +3,9 @@
 - Step 2: Set ID_NUMBER and PASSWORD variables to animosys credentials
     ```
     # script.py
-    ID_NUMBER - 12345678
-    PASSWORD - My_password
+    # make sure to add quotation marks around them
+    ID_NUMBER - "12345678"
+    PASSWORD - "My_password"
     ```
 - Step 3: Use pip to install helium (eg. pip install helium)
 - Step 4: Run script using python (eg. python script.py)
