@@ -9,6 +9,8 @@ from helium._impl import sleep
 ID_NUMBER = ENTER_YOUR_ID_NUMBER_HERE
 PASSWORD = ENTER_YOUR_PASSWORD_HERE
 
+TIMEOUT = 0.5 # time in seconds to wait after enlistment attempt
+
 url = "https://animo.sys.dlsu.edu.ph/psp/ps/"
 start_chrome(url)
 
@@ -30,4 +32,4 @@ while True:
     click("Finish Enrolling")
     wait_until(Link("Add Another Class").exists)
     click("Add Another Class")
-    sleep(0.5)
+    sleep(TIMEOUT)
