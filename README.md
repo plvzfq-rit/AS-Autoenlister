@@ -1,3 +1,4 @@
+To get started, fill your shopping cart in animo.sys with subjects you want to take. Then download the files from this repo onto your PC. Follow the steps below and happy enlisting!
 # 🖊️ Requirements
 - [Python 3](https://www.python.org/downloads/)
 - [Pip](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)
