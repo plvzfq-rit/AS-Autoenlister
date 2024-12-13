@@ -1,8 +1,3 @@
-# HOW TO USE
-# Step 1: put your ID_NUMBER and PASSWORD to animo.sys below
-# Step 2: uses pip to install helium
-# Step 3: run script using python (python script.py)
-
 from helium import *
 from helium._impl import sleep
 
