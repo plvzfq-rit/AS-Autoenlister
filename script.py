@@ -1,8 +1,8 @@
 from helium import *
 from helium._impl import sleep
 
-ID_NUMBER = WRITE_DLSU_ID_NUMBER_HERE
-PASSWORD = WRITE_PASSWORD_HERE
+ID_NUMBER = WRITE_YOUR_DLSU_ID_NUMBER_HERE
+PASSWORD = WRITE_YOUR_PASSWORD_HERE
 PATIENCE = 300 # time in seconds to wait when site loads before timing out
 
 TIMEOUT = 0.5 # time in seconds to wait after enlistment attempt
@@ -25,10 +25,7 @@ while True:
     wait_until(Link("Proceed to Step 2 of 3").exists, timeout_secs=PATIENCE)
     click("Proceed to Step 2 of 3")
 
-    wait_until(Link("Finish Enrolling").exists or Text("You do not have a valid enrollment appointment at this time"), timeout_secs=PATIENCE)
-    if Text("You do not have a valid enrollment appointment at this time"):
-        sleep(TIMEOUT)
-        continue
+    wait_until(Link("Finish Enrolling").exists, timeout_secs=PATIENCE)
     click("Finish Enrolling")
 
     wait_until(Link("Add Another Class").exists, timeout_secs=PATIENCE)
