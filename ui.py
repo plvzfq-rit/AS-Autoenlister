@@ -7,7 +7,7 @@ import tkinter
 def autoclick(id_number, password, shouldStopFlag):
     ID_NUMBER = id_number
     PASSWORD = password
-    PATIENCE = 300 # time in seconds to wait when site loads before timing out
+    PATIENCE = 5400 # time in seconds to wait when site loads before timing out
 
     TIMEOUT = 0.5 # time in seconds to wait after enlistment attempt
 
