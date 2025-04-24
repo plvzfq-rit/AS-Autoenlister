@@ -7,6 +7,7 @@ To get started, fill your shopping cart in animo.sys with subjects you want to t
 - Step 1: Open script.py using any text editor (eg. notepad)
 - Step 2: Set ID_NUMBER and PASSWORD variables to animosys credentials
 - OPTIONAL: Set PATIENCE to how long you want (in seconds) for the script to wait during loading times (default: 300s / 5 mins). Could be useful for when there are long queue times.
+- OPTIONAL: Set ENROLL to False if you're sniping classes, or True (default) if you're enrolling
     ```
     # script.py
     # make sure to add quotation marks around ID and PASSWORD
